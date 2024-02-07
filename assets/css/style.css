@@ -6,7 +6,9 @@ body,
 }
 
 :root {
-	--main-color: #008080;
+	/* #6b2647 */
+	/* #d724ff */
+	--main-color: #ff9800 ;;
 	--bg-light: whitesmoke;
 	--font-color: #222222;
 }
@@ -95,6 +97,7 @@ a.common_btn {
 	border: 1px solid transparent;
 	transition: all 0.5s;
 	border-radius: 5px;
+	text-transform: capitalize;
 }
 
 a.common_btn:hover {
@@ -512,7 +515,7 @@ input.form-control.sub_btn:hover {
 
 .luxury_hotels_inner img {
 	transition: all 0.5s;
-	padding: 40px;
+	/* padding: 40px; */
 }
 .luxury_hotels_inner img:hover{
 	filter: brightness(0.5);
@@ -560,4 +563,26 @@ input.form-control.sub_btn:hover {
 }
 .footer_right ul li:nth-child(4) a{
 background-color: #1d9df0;
+}
+h1::before {
+    position: absolute;
+    content: '';
+    background-color: #00000082;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 0px;
+}
+.right_side_ab img {
+    border-radius: 10px;
+}
+h5.location_hotel {
+    color: darkgrey;
+    margin: 10px 0;
+}
+.luxury_hotels.section {
+    padding-bottom: 0;
 }
