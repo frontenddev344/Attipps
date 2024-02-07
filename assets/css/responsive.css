@@ -158,6 +158,11 @@
 	.content_card ul {
 		display: block;;
 	}
+	h1::before {
+		position:unset;
+		display: none;
+
+	}
 
 }
 
