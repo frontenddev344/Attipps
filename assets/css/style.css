@@ -338,6 +338,7 @@ footer {
 
 .footer_right h2 {
 	color: var(--main-color);
+	font-size: 24px;
 }
 
 .footer_left .logo {
@@ -593,4 +594,7 @@ h5.location_hotel {
 }
 .content_card p {
     margin-bottom: 4px;
+}
+.main_h2_heading br {
+    display: none;
 }

@@ -126,6 +126,11 @@
 	.luxhotel_card_further img {
 		height:auto;
 	}
+	h1::before {
+		position:unset;
+		display: none;
+
+	}
 }
 
 @media (max-width: 767px) {
@@ -158,11 +163,10 @@
 	.content_card ul {
 		display: block;;
 	}
-	h1::before {
-		position:unset;
-		display: none;
-
+	.sub_banner::before {
+		background: #000000b8;
 	}
+
 
 }
 
@@ -183,6 +187,9 @@
 		}
 		h1.word_br{
 			word-break: break-all;
+		}
+		.main_h2_heading br {
+			display: block!important;
 		}
 		
 }
