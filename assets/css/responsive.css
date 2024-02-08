@@ -95,7 +95,7 @@
 	}
 
 	.nav>#nav-check:checked~.nav-list {
-		height: 500px;
+		height: 300px;
 	}
 
 	.nav>.nav-header {
