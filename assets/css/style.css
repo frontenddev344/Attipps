@@ -591,3 +591,6 @@ h5.location_hotel {
     font-weight: 600;
     color: #000;
 }
+.content_card p {
+    margin-bottom: 4px;
+}
