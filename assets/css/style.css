@@ -587,3 +587,7 @@ h5.location_hotel {
 .about_us.section {
     padding-bottom: 0;
 }
+.content_card h6 {
+    font-weight: 600;
+    color: #000;
+}
