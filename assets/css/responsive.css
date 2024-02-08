@@ -181,5 +181,8 @@
 	.luxury_hotels_inner img{
 		padding: 10px;
 		}
+		h1.word_br{
+			word-break: break-all;
+		}
 		
 }
